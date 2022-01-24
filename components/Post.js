@@ -14,7 +14,7 @@ function Post({
   share,
 }) {
   return (
-    <div className="flex p-2 mt-8 space-x-1 max-w-md border-b-2">
+    <div className="flex p-2 mt-2 space-x-1 max-w-md border-b-2">
       <div>
         <Image
           className="rounded-full"
@@ -55,16 +55,16 @@ function Post({
             </div>
           )}
           <div className="flex items p-2  items-center justify-around">
-            <div className="flex items-center space-x-1">
-              <img className="w-5 h-5" src="/comment.png" />
+            <div className="flex  items-center space-x-1">
+              <img className="w-5 h-5 cursor-pointer" src="/comment.png" />
               <p className="text-gray-400 underline">{comment}</p>
             </div>
             <div className="flex items-center space-x-1">
-              <img className="w-5 h-5" src="/share1.png" />
+              <img className="w-5 h-5 cursor-pointer" src="/share1.png" />
               <p className="text-gray-400 underline">{share}</p>
             </div>
             <div className="flex items-center space-x-1">
-              <img className="w-5 h-5" src="/like.png" />
+              <img className="w-5 h-5 cursor-pointer" src="/like.png" />
               <p className="text-gray-700 underline">{like}</p>
             </div>
           </div>

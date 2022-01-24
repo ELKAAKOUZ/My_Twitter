@@ -14,7 +14,7 @@ function Footer() {
       <SearchIcon className="w-7 h-7" />
       <BellIcon className="w-7 h-7" />
       <ChatIcon className="w-7 h-7" />
-      <div className="absolute bottom-16 right-7 w-14 rounded-full h-14 bg-blue-400">
+      <div className="absolute cursor-pointer bottom-16 right-7 w-14 rounded-full h-14 bg-blue-400">
         <PlusIcon className="text-white " />
       </div>
     </div>
